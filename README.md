@@ -1,6 +1,6 @@
 # image-processing
 ## How to use filter files in Octave
-- Open this clone repositori as working folder
+- Open this clone repository as working folder
 - Open command window
 - Define image for input using imread()
   - I = imread('input/doll.tif');
