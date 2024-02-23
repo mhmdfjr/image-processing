@@ -1,2 +1,10 @@
 # image-processing
-Image processing training
+## How to use filter files in Octave
+- Define image for input using imread()
+  I = imread('input/doll.tif');
+- Define filtered image with filter file
+  I_meanFilter = meanFilter(I);
+- Show filtered image using imshow()
+  imshow(I_meanFilter);
+  imshow(I), figure, imshow(I_meanFilter);
+  subplot(2,2,1), imshow(I_meanFilter), title('mean filter image');
